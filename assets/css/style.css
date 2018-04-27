@@ -363,7 +363,7 @@ main {
 
 .class {
   position: absolute;
-  top: 150px;
+  top: 120px;
   left: 15%;
   right: 15%; }
 
@@ -470,7 +470,7 @@ h2 {
   position: absolute;
   width: 100%;
   top: 360px;
-  left: 2%;
+  left: 0%;
   display: none; }
 
 .listDeck {
