@@ -1,0 +1,104 @@
+main{
+	display:flex;
+	padding-top:50px;
+	background: url(../images/background2.jpg);
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin-top:25px;
+    box-shadow: 0 0 14px 3px black;
+	h3 {
+	width:(1260/9);
+	text-align:center;
+	display:inline-block;
+	font-size:28px;
+	cursor:pointer;
+	}
+}
+
+.class{
+	position: absolute;
+    top: 150px;
+    left: 15%;
+    right: 15%;
+}
+
+h2{
+	display: inline-block;
+    cursor: pointer;
+    font-size: 32px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.toggle-content{
+	display:inline-flex;
+}
+
+.activeColor#druid {color:brown;}
+.activeColor#hunter {color:green;}
+.activeColor#mage {color:#509BD8;}
+.activeColor#paladin {color:yellow;}
+.activeColor#priest {color:lightgrey;}
+.activeColor#rogue {color:#57545B;}
+.activeColor#shaman {color:#2648F2;}
+.activeColor#warlock {color:purple;}
+.activeColor#warrior {color:red;}
+.activeColor{text-shadow: -1px 1px 2px #182823;}
+
+.deck{
+	display:flex;
+	flex-direction:column;
+}
+
+.flex{
+	display:inline-flex;
+}
+
+.deck img{
+	width:200px;
+}
+
+#duskbat{
+	padding-top:11px;
+}
+
+.codehs{
+	font-family: 'Merriweather', serif;
+	position:absolute;
+	width:100%;
+	top:360px;
+	left:2%;
+	display:none;
+}
+
+.listDeck{
+	padding-bottom:20px;
+}
+
+.activeDeck{
+	background-color: #FFEBC4;
+    box-shadow: 0 0 20px 11px #FFEBC4;
+}
+
+.comment{
+	padding-bottom:30px;
+}
+
+.welcome{
+	position: absolute;
+    top: 180px;
+    left: 20%;
+    right: 20%;
+    font-size:40px;
+    #welcome{
+    	font-size:60px;
+    }
+}
+
+.hide{
+	display:none;
+}
+
+.visible{
+	display:block;
+}
