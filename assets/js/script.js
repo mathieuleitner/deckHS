@@ -4,7 +4,6 @@ $(document).ready(function(){
 
     $(".toggle-header").click(function(){
     	var parent=$(this).closest('.toggle-item');
-    	/*$(".welcome").addClass("hide");*/
     	$(this).toggleClass("activeColor");
         $(parent).find(".toggle-content").slideToggle(); 
         $(".toggle-item").not(parent).find(".toggle-content").slideUp();
@@ -17,14 +16,19 @@ $(document).ready(function(){
 			}
     });
 
-   $(".deck").click(function(){
+   $(".deck-enabler").click(function(){
     	var archetype=$(this).closest('.deck');
+        $(this).toggleClass("activeDeck");
     	$(archetype).find(".codehs").slideToggle();
+        $(".deck").not(archetype).find(".deck-enabler").removeClass("activeDeck");
     	$(".deck").not(archetype).find(".codehs").slideUp();
-    	$(this).toggleClass("activeDeck");
-    	$(".deck").not(archetype).removeClass("activeDeck");
     });
 
 });
 
 
+/*  toggle-item = deck
+
+    toggle-content = codehs
+
+    toggle-header = deck-enabler*/

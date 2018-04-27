@@ -352,7 +352,8 @@ main {
   padding-bottom: 20px;
   margin-top: 25px;
   -webkit-box-shadow: 0 0 14px 3px black;
-  box-shadow: 0 0 14px 3px black; }
+  box-shadow: 0 0 16px 0px black;
+  border-radius: 10px; }
   main h3 {
     width: 140;
     text-align: center;
@@ -408,7 +409,43 @@ h2 {
 .activeColor {
   text-shadow: -1px 1px 2px #182823; }
 
-.deck {
+#druid:hover {
+  color: brown;
+  text-shadow: -1px 1px 2px #182823; }
+
+#hunter:hover {
+  color: green;
+  text-shadow: -1px 1px 2px #182823; }
+
+#mage:hover {
+  color: #509Bd8;
+  text-shadow: -1px 1px 2px #182823; }
+
+#paladin:hover {
+  color: yellow;
+  text-shadow: -1px 1px 2px #182823; }
+
+#priest:hover {
+  color: lightgrey;
+  text-shadow: -1px 1px 2px #182823; }
+
+#rogue:hover {
+  color: #57545B;
+  text-shadow: -1px 1px 2px #182823; }
+
+#shaman:hover {
+  color: #2648f2;
+  text-shadow: -1px 1px 2px #182823; }
+
+#warlock:hover {
+  color: purple;
+  text-shadow: -1px 1px 2px #182823; }
+
+#warrior:hover {
+  color: red;
+  text-shadow: -1px 1px 2px #182823; }
+
+.deck-enabler {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -445,7 +482,7 @@ h2 {
   box-shadow: 0 0 20px 11px #FFEBC4; }
 
 .comment {
-  padding-bottom: 30px; }
+  padding-bottom: 15px; }
 
 .welcome {
   position: absolute;
@@ -461,3 +498,14 @@ h2 {
 
 .visible {
   display: block; }
+
+.btn {
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  background-image: url(../images/background2.jpg);
+  color: white;
+  border-line: none;
+  outline: 0;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  margin-bottom: 30px; }
