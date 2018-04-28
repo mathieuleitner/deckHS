@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*====================================
 	NEEDED
 ====================================*/
@@ -519,4 +520,4 @@ h2 {
   content: "Copy Decklist"; }
 
 .done::after {
-  content: "Deck copied"; }
+  content: "Deck copied ✔"; }
