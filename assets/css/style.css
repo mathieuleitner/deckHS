@@ -514,3 +514,9 @@ h2 {
   background-color: #FFEBC4;
   -webkit-box-shadow: 0 0 20px 11px #FFEBC4;
   box-shadow: 0 0 20px 11px #FFEBC4; }
+
+.notdone::after {
+  content: "Copy Decklist"; }
+
+.done::after {
+  content: "Deck copied"; }

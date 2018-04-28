@@ -120,7 +120,7 @@ h2{
 }
 
 .btn{
-	padding: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
     border-radius: 30px;
     background-image: url(../images/background2.jpg);
     color: white;
@@ -134,4 +134,12 @@ h2{
 .deck-enabler:hover{
     background-color: #FFEBC4;
     box-shadow: 0 0 20px 11px #FFEBC4;
+}
+
+.notdone::after{
+    content:"Copy Decklist";
+}
+
+.done::after{
+    content:"Deck copied";
 }

@@ -12,7 +12,7 @@ $(document).ready(function(){
           if($(".toggle-header").hasClass("activeColor")){
 			$(".welcome").addClass("hide");
 			} else {
-				$(".welcome").removeClass("hide");
+			$(".welcome").removeClass("hide");
 			}
     });
 
@@ -23,6 +23,12 @@ $(document).ready(function(){
         $(".deck").not(archetype).find(".deck-enabler").removeClass("activeDeck");
     	$(".deck").not(archetype).find(".codehs").slideUp();
     });
+
+   $(".notdone").click(function(){
+        var that=$(this).closest(".version");
+        $(this).toggleClass("done");
+        $(".version").not(that).find(".btn").removeClass("done");
+   });
 
 });
 
